@@ -1,6 +1,4 @@
-*{
-    
-}
+
 
 body{
     margin: 0%;
@@ -68,6 +66,27 @@ p span{
 div{
     display: flex;
     flex-wrap: wrap;
+}
+
+.contenedor{
+    align-self: center;
+    justify-content: center;
+}
+
+.botton{
+    background-color: black; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    padding-top: 18%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: solid;
+}
+
+#carrousel{
+    transform: scale(1);
 }
 div img{
     margin: 1%;
